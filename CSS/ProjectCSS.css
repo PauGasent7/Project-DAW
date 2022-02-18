@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Bulls;
+    src: url(../fonts/NBA\ Bulls.ttf);
+  }
+
+  @font-face {
+    font-family: Bombing;
+    src: url(../fonts/Bombing.ttf);
+  }
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    font-size: 16px;
+    
+    background-image: url(../Media/fondo.jpg)
+}
+
+  
+h1 {
+    font-family: Bombing;
+    text-align: center;
+  }
+
+  h2.head{
+    font-family: Bulls;
+    text-align: center;
+  }
+
+  h2, a, h3   {
+      font-family: Bulls;
+  }
+
+
+
+body>* {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: rgba(240, 244, 245, 1);
+  }
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header{
+    background-color: rgba(0, 188, 188);
+}
+
+nav li{
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+     text-align: center;
+    background-color: #0d72ec;
+    padding-top: 10px;
+    border: 2px solid black;
+    
+}
+
+figure  {
+    padding: 10px;
+    margin-top: 0;
+    border: 5px solid black;
+}
+
+section figure {
+    width: 150px;
+    flex: auto;        
+  }
+
+section figure img {
+      width: 100%;
+}
+
+article figure {
+    float: right;
+    width: 200px;    
+}
+
+article figure img {
+    float: right;
+    width: 100%;    
+}
+
+div.gallery   {
+    display: block;
+    text-align: center;
+}
+
+div.videos   {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+table {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #c3e3fd;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+table tr {
+border-top: 1px solid black;
+}
+
+
+ 
+footer {
+    background-color: rgba(0, 188, 188);
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact - NBA</title>
+    <link rel="icon" href="Media/logonba.png">
+    <link rel="stylesheet" href="CSS/ProjectCSS.css"> 
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">NBA</a></h1>
+        <nav>
+            <ul>
+                <li><a href="History.html">HISTORY</a></li>
+                <li><a href="EastConference.html">EAST CONFERENCE</a></li>
+                <li><a href="WestConference.html">WEST CONFERENCE</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <h2 class="head">NBA CONTACT FORM</h2>
+        <h2>Contact information</h2>
+        <section>
+            <p>
+                <label for="name">
+                    <span>Name:</span>
+                    <abbr title="required" aria-label="required">*</abbr>
+                    <input id="name" type="text" name="username">
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    <span>E-mail:</span>
+                    <abbr title="required" aria-label="required">*</abbr>
+                <input id="email" type="text" name="useremail">
+                </label>
+            </p> 
+            <p>
+                <label for="nick">
+                    <span>Nick:</span>
+                    <abbr title="required" aria-label="required">*</abbr>
+                    <input id="nick" type="text" name="nick">
+                </label>
+            </p>
+            <fieldset>
+                <legend>You want information about:</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="info" id="size_1" value="History">
+                        <label for="size_1">History</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="info" id="size_2" value="Conferences">
+                        <label for="size_2">Conferences</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="info" id="size_3" value="Players">
+                        <label for="size_3">Players</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Favourite position</h2>
+                    <p>
+                        <label for="position">
+                            <span>Select your favourite position:</span>
+                            <select name = "package" id="position">
+                                <option value="first">Center</option>
+                                <option value="second">Forward</option>
+                                <option value="third">Guard</option>
+                                <option value="fourth">Point Guard</option>
+                                <option value="fifth">Shooting Guard</option>
+                            </select>
+                        </label>
+                    
+                    </p>
+        </section>
+        <section>
+            <h2>Teams</h2>
+            <fieldset>
+                <legend>SELECT 2 TEAMS</legend>
+                <p>
+                    <input type="checkbox" name="team_1" id="size_9" value="Dallas Mavericks">
+                    <label for="size_9">Dallas Mavericks</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="team_2" id="size_10" value="Golden State Warriors">
+                    <label for="size_10">Golden State Warriors</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="team_3" id="size_11" value="Charlotte Hornets">
+                    <label for="size_11">Charlotte Hornets</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="team_4" id="size_12" value="Los Angeles Lakers">
+                    <label for="size_12">Los Angeles Lakers</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="team_5" id="size_13" value="Phoenix Suns">
+                    <label for="size_13">Phoenix Suns</label>
+                </p>
+            </fieldset>
+                <p>Comments to specifies the information you want</p>            
+                    <textarea cols="40" rows="8" name = "comments"></textarea>
+        </section>
+        <div>
+            <button name="send">Send form</button>
+            <button name="reset">Reset</button>
+        </div>
+    </form>
+    <footer>
+        Website for introduce people to the best league in the world. The NBA
+        <a href="https://www.nba.com/">[1].</a>
+        <hr>
+    </footer>
+</body>
+</html>
